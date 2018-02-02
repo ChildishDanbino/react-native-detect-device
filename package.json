@@ -1,0 +1,19 @@
+{
+	"name": "react-native-detect-device",
+	"version": "0.0.1",
+	"description": "Class to let your app figure out what type of device is being used (iOS/Android, Phone/Tablet).",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Daadler6/react-native-detect-device.git"
+	},
+	"author": "Daniel Adler",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Daadler6/react-native-detect-device/issues"
+	},
+	"homepage": "https://github.com/Daadler6/react-native-detect-device"
+}

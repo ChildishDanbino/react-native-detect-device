@@ -6,7 +6,7 @@ import React, {
 
 const windowSize = Dimensions.get('window');
 
-class DetectDeviceService {
+class DeviceDetection {
 	constructor() {
 		this.pixelDensity = PixelRatio.get();
 		this.width = windowSize.width;
@@ -43,7 +43,7 @@ class DetectDeviceService {
 	}
 
 	detectIphoneX(){
-		if( Platform.OS === 'ios' &&
+		if ( Platform.OS === 'ios' &&
 			!Platform.isPad &&
 			!Platform.isTVOS &&
 			(windowSize.height === 812 || windowSize.width === 812)) {
@@ -55,4 +55,4 @@ class DetectDeviceService {
 	}
 }
 
-module.exports = new DetectDeviceService();
+module.exports = new DeviceDetection();
